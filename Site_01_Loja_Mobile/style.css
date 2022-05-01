@@ -7,8 +7,9 @@
 *{
     font-family: 'Kanit', sans-serif;
 }
+
 body{
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .header{
@@ -25,15 +26,25 @@ body{
     text-shadow: 1px 1px 2px #00eafff7;
 }
 
-.frist-container{
-    border-radius: 32px 32px 0 0;
-    background-color: #ffe16e;
-    box-shadow: 6px 0px 8px 0px rgb(255 98 0);
 
-}
 .frist-background{
     border-bottom: 10px;
+    position: absolute;
     background-color: rgb(255, 174, 0);
+    height: 200px;
+    z-index: -1;
+
+}
+.banner{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    background-color: #eb0101;
+    border-radius: 32px 32px 32px 32px;
+    background-color: #ffe16e;
+    box-shadow: 6px 0px 8px 0px rgb(255 98 0);
+    transform: rotate(-10deg);
 }
 
 .backgroundFrist{
@@ -47,7 +58,7 @@ h1{
 
 .prodcuts{
     height: 200px;
-    background-color: #6c59a7;
+    background-color: #1b2318;
 }
 .smartPhone{
     font-size: 32px;
@@ -55,8 +66,8 @@ h1{
     background-color: #ffae00;
     margin-top: 20px;
     text-align: center;
-    border-radius: 36px 32px 11px 11px;;
-    box-shadow: 32px red;
+    border-radius: 36px 32px 5px 5px;;
+    box-shadow: 6px 0px 8px 0px #ff6f00;
 
 }
 
@@ -68,5 +79,5 @@ h1{
 
 .description{
     text-align: center;
-    background-color: aliceblue;
+    background-color: #ffae00;
 }
