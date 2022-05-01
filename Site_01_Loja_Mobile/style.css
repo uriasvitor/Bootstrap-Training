@@ -63,21 +63,24 @@ h1{
 .smartPhone{
     font-size: 32px;
     color: azure;
+    height: 500px;
     background-color: #ffae00;
     margin-top: 20px;
     text-align: center;
-    border-radius: 36px 32px 5px 5px;;
+    border-radius: 36px 32px 36px 32px;
     box-shadow: 6px 0px 8px 0px #ff6f00;
 
 }
 
 .smartPhone img{
-    border-radius: 56px 56px 0 0;
+    border-radius: 56px 56px 46px 46px;
     overflow: hidden;
+    height: 80%;
     width: 100%;
 }
 
 .description{
+    margin-top: 20px;
     text-align: center;
     background-color: #ffae00;
 }
