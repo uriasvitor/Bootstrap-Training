@@ -82,5 +82,11 @@ h1{
 .description{
     margin-top: 20px;
     text-align: center;
+    font-weight: 400;
     background-color: #ffae00;
+}
+
+.card-img-top{
+    width: 360px;
+    height: 360px;
 }
